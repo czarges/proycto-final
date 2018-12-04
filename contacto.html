@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/estilos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -29,14 +30,14 @@
     width: 100%;
   }
     </style>
-    <link href="assets/css/carousel.css" rel="stylesheet">
+
 
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
+        <div class="navbar-wrapper">
+      <div class="container-fluid">
 
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
@@ -50,11 +51,12 @@
               <a class="navbar-brand" href="#">Project name</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="somos.html">Quienes Somos</a></li>
-                <li><a href="portafolio.html">Portafolio</a></li>
-                <li class="active"><a href="#contact">Contacto</a></li>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="somos.html">Nuestro Equipo</a></li>
+                <li><a href="portafolio.html">Productos</a></li>
+                <li class="active"><a href="contacto.html">Contacto</a></li>
+              
               </ul>
             </div>
           </div>
@@ -62,6 +64,8 @@
 
       </div>
     </div>
+
+
 
     <div class="jumbotron">
         <div class="container">
@@ -80,46 +84,34 @@
       <div class="row">
         <div class="col-xs-12 col-sm-6">
         
-
          <h1 class="text-center">Busca en tu ciudad</h1>
-    <div class="form-group">
-     <select class="form-control" id="select">
-      <option value="0">Selecciona tu ciudad:</option>
-      <option value="santiago">Santiago</option>
-      <option value="valdivia">Valdivia</option>
-      <option value="frutillar">Frutillar</option>
-    </select>
+            <div class="form-group">
+             <select class="form-control" id="select">
+              <option value="0">Selecciona tu ciudad:</option>
+              <option value="santiago">Santiago</option>
+              <option value="valdivia">Valdivia</option>
+              <option value="frutillar">Frutillar</option>
+             </select>
 
-     <div id="map"></div>
+             <div id="map"></div>
 
-  </div>
-
+          </div>
 
         </div>
 
         <div class="col-xs-12 col-sm-6">
            <h1 class="text-center">Contactanos</h1>
           <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
+              <div class="form-group">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input type="email" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
         </div>
       </div><!-- /.row -->
 
@@ -135,34 +127,27 @@
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
+    </div>
 
-
+    <div class="container-fluid">
       <!-- FOOTER -->
-      <footer>
+      <footer class="container">
         <div class="row">
-          <div class="redes-sociales col-xs-12 col-sm-6">
+          <div class="redes-sociales col-xs-12  col-md-6 col-md-offset-3">
             <ul>
               <li><i class="fab fa-facebook"></i></li>
               <li><i class="fab fa-twitter"></i></li>
               <li><i class="fab fa-instagram"></i></li>
               <li><i class="fab fa-youtube"></i></li>
             </ul>
-            
-          </div>
-           <div class="redes-sociales col-xs-12 col-sm-6">
-            <ul>
-              <li>Direccion:</li>
-              <li>Direccion:</li>
-              <li>Email:</li>
-            </ul>
           </div>
           
         </div>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2018 Baking Bread, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
-    </div><!-- /.container -->
+    </div>
 
 
     <!-- Bootstrap core JavaScript
