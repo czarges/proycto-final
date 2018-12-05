@@ -17,22 +17,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
-
-    
-    <style>
-   #map {
-    height: 50vh;
-    width: 100%;
-  }
-    </style>
-
-
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -55,8 +39,8 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="somos.html">Nuestro Equipo</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li class="active"><a href="contacto.html">Contacto</a></li>
+                <li class="active"><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
               
               </ul>
             </div>
@@ -67,76 +51,86 @@
     </div>
 
 
-
-    <div class="jumbotron contacto">
+    <div class="jumbotron productos">
         <div class="container">
-        <h1>Contacto</h1>
+        <h1>Productos</h1>
         </div>
   </div>
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-        
-         <h2>Búscanos en tu ciudad</h2>
-            <div class="form-group">
-             <select class="form-control" id="select">
-              <option value="0">Selecciona tu ciudad:</option>
-              <option value="santiago">Santiago</option>
-              <option value="valdivia">Valdivia</option>
-              <option value="frutillar">Frutillar</option>
-             </select>
+  <div class="row">
+    <h2></h2>
 
-             <div id="map"></div>
-
-          </div>
-
-        </div>
-
-        <div class="col-xs-12 col-sm-6">
-           <h2>Contactanos</h2>
-           <p></p>
-          <form>
-              <div class="form-group">
-            <label>Nombre</label>
-            <input class="form-control" placeholder="Nombre">
-          </div>
-          <div class="form-group">
-            <label>Email</label>
-            <input class="form-control" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label">Comentarios</label>
-            <textarea class="form-control" rows="3"></textarea>
-          </div>
-          
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-        </div>
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-    
-
-     
-
-     
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
+    <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto1.jpg" alt="...">
+      <div class="caption">
+        <h3>Pan Artesano</h3>
+      </div>
     </div>
 
-    <div class="container-fluid">
+        <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto2.jpg" alt="...">
+      <div class="caption">
+        <h3>Masa Dulce</h3>
+
+      </div>
+    </div>
+
+        <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto3.jpg" alt="...">
+      <div class="caption">
+        <h3>Tarta Frutos Rojos</h3>
+      </div>
+    </div>
+
+        <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto4.jpg" alt="...">
+      <div class="caption">
+        <h3>Galletas</h3>
+      </div>
+    </div>
+
+        <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto5.jpg" alt="...">
+      <div class="caption">
+        <h3>Crossaints</h3>
+      </div>
+    </div>
+
+
+        <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto6.jpg" alt="...">
+      <div class="caption">
+        <h3>Pan de Masa Madre</h3>
+      </div>
+    </div>
+
+        <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto7.jpg" alt="...">
+      <div class="caption">
+        <h3>Rollo de Canela</h3>
+      </div>
+    </div>
+
+        <div class="thumbnail col-xs-12 col-sm-6 col-md-3">
+      <img src="assets/images/producto8.jpg" alt="...">
+      <div class="caption">
+        <h3>Tarta de Manzana</h3>
+      </div>
+    </div>
+
+
+  </div>
+
+        
+    </div><!-- /.row -->
+
+
+    </div><!-- /.container -->
+
+        <div class="container-fluid">
       <!-- FOOTER -->
       <footer class="container">
         <div class="row">
@@ -157,12 +151,16 @@
     </div>
 
 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
-     <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/ajax.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA_m00gCN3it7ADJYxXIpX8tVAZGzwnbo&callback=initMap">
-</script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

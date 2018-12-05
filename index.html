@@ -9,11 +9,12 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Baking Bread Bakery</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -47,13 +48,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Project name</a>
+              <a class="navbar-brand" href="#">Baking Bread</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.html">Inicio</a></li>
                 <li><a href="somos.html">Nuestro Equipo</a></li>
-                <li><a href="portafolio.html">Productos</a></li>
+                <li><a href="productos.html">Productos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
               
               </ul>
@@ -80,7 +81,7 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="assets/images/slider1.jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption">
           <h3>Los Angeles</h3>
           <p>LA is always so much fun!</p>
@@ -88,7 +89,7 @@
       </div>
 
       <div class="item">
-        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+        <img src="assets/images/slider2.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
           <h3>Chicago</h3>
           <p>Thank you, Chicago!</p>
@@ -96,7 +97,7 @@
       </div>
     
       <div class="item">
-        <img src="ny.jpg" alt="New York" style="width:100%;">
+        <img src="assets/images/slider3.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>New York</h3>
           <p>We love the Big Apple!</p>
@@ -128,11 +129,29 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Nuestro pan es 100% hecho a mano. <span class="text-muted">Trabajamos con <a href="#" data-toggle="modal" data-target="#myModal">masa madre.</a></span></h2>
+          <p class="lead">Conoce nuestro equipo de panaderos y pasteleros entrenados en los mejores centros del país.</p>
+
+          <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">¿Que es masa madre?</h4>
+      </div>
+      <div class="modal-body">
+         La masa madre natural es un fermento compuesto de harina y agua que no contiene ningún tipo de levadura añadida.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="assets/images/foto1.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -140,11 +159,11 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Nustra especialidad son las masas. <span class="text-muted">Que prefieres ¿dulce o salado?</span></h2>
+          <p class="lead">Conoce nuestra variada carta de productos.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="assets/images/foto2.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -152,11 +171,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Tenemos tres sucursales en todo Chile.<span class="text-muted">Visítanos y conoce nuestros locales.</span></h2>
+          <p class="lead">Infórmate de nuestros horarios de atención y de los talleres.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="assets/images/foto3.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -171,10 +190,10 @@
         <div class="row">
           <div class="redes-sociales col-xs-12  col-md-6 col-md-offset-3">
             <ul>
-              <li><i class="fab fa-facebook"></i></li>
-              <li><i class="fab fa-twitter"></i></li>
-              <li><i class="fab fa-instagram"></i></li>
-              <li><i class="fab fa-youtube"></i></li>
+              <li><i class="fab fa-facebook" data-toggle="tooltip" data-placement="top" title="Facebook"></i></li>
+              <li><i class="fab fa-twitter" data-toggle="tooltip" data-placement="top" title="Twitter"></i></li>
+              <li><i class="fab fa-instagram" data-toggle="tooltip" data-placement="top" title="Instagram"></i></li>
+              <li><i class="fab fa-youtube" data-toggle="tooltip" data-placement="top" title="Youtube"></i></li>
             </ul>
           </div>
           
@@ -193,9 +212,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/ajax.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>

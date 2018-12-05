@@ -1,0 +1,133 @@
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px; 
+    background-color: #0D2C31;
+
+}
+
+body {
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+p {
+	text-align: center;
+}
+
+.redes-sociales ul, .user {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+}
+
+.redes-sociales li {
+	display: inline-block;
+	margin: 12px;
+
+	
+}
+
+.redes-sociales ul i {
+	font-size: 38px;
+}
+
+.user h2{
+	font-size: 22px;
+}
+.user li {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 6px;
+	padding-top: 8px;
+	
+}
+
+.equipo {
+	text-align: center;
+	background-image: url(../images/bk-equipo.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-shadow: 2px 2px 4px #333;
+}
+
+.productos {
+	text-align: center;
+	background-image: url(../images/bk-productos.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-shadow: 2px 2px 4px #333;
+}
+
+.contacto {
+	text-align: center;
+	background-image: url(../images/bk-contacto.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-shadow: 2px 2px 4px #333;
+}
+
+
+
+.thumbnail h3 {
+	text-align: center;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1820px) {
+	.thumbnail  {
+	margin-left: 6px;
+	margin-right: 6px;
+	width: 23%;
+	transform: translateY(-4px);
+	
+}
+
+.user li {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 6px;
+	width: 23%;
+	padding-top: 8px;
+	
+}
+.thumbnail h3 {
+	font-size: 18px;
+	
+}
+}
+
+
+@media only screen and (min-width: 468px) and (max-width: 799px) {
+	.thumbnail  {
+	margin-left: 6px;
+	margin-right: 6px;
+	width: 45%;
+	transform: translateY(-4px);
+	
+}
+
+.user li {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 6px;
+	width: 45%;
+	padding-top: 8px;
+	
+}
+.thumbnail h3 {
+	font-size: 18px;
+	
+}
+}

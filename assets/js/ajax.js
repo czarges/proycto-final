@@ -7,7 +7,7 @@ $.ajax({
 	console.log(data.results);
 
 	$.each( data.results, function( key, value ) {
-		$('.user').append(`<li class="col-md-4">
+		$('.user').append(`<li class="col-xs-12 col-sm-6 col-md-3">
 	<img src="${value.picture.large}" class="user_picture" alt="">
 	<h2 class="user_name">${value.name.first} ${value.name.last}</h2>
 
@@ -83,6 +83,11 @@ $('#select').on('change', function() {
 
 });
 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 
-
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
